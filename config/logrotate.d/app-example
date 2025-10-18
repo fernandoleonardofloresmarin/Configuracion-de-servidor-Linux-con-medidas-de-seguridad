@@ -1,0 +1,13 @@
+
+/var/log/app-example/*.log {
+  weekly
+  rotate 8
+  compress
+  missingok
+  notifempty
+  create 0640 root adm
+  sharedscripts
+  postrotate
+    systemctl reload rsyslog >/dev/null 2>&1 || true
+  endscript
+}
