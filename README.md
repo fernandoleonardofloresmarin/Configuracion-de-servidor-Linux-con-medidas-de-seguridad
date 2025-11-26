@@ -39,7 +39,7 @@ linux-secure-server/
 ## Uso rápido
 1. **Clona y ajusta variables**:
    ```bash
-   git clone https://github.com/fernandoleonardofloresmarin/linux-secure-server.git
+   git clone https://github.com/fernandoleonardofloresmarin/Configuracion-de-servidor-Linux-con-medidas-de-seguridad.git
    cd linux-secure-server
    cp .env.example .env
    # edita .env (usuarios, puertos, etc.)
